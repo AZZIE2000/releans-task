@@ -19,9 +19,7 @@ import 'aos/dist/aos.css';
 
 export default function HeaderSection() {
 
-    useEffect(() => {
-        AOS.init();
-    }, [])
+
     const [slide, setSlide] = useState(0)
 
     const content = [
