@@ -23,7 +23,7 @@ export default function BookSec() {
             <p className='text-right pb-5 font-bold text-3xl'>احجز موعدك الآن</p>
             <div className='flex  justify-between mx-auto items-end lg:items-center w-full'>
 
-                <button className='p-5  mt-9 bg-black hover:bg-black/60  text-white rounded whitespace-nowrap '>حجز الآن</button>
+                <button className='p-5 px-7 mt-9 bg-black hover:bg-white hover:text-black hover:ring-2 hover:ring-black  text-white rounded whitespace-nowrap '>حجز الآن</button>
                 <div className='flex flex-wrap justify-end gap-10 md:gap-28'>
 
                     <div className='flex flex-col gap-4 w-52 justify-center'>
@@ -34,11 +34,11 @@ export default function BookSec() {
                     <div className='flex flex-col gap-4 w-52 justify-center '>
 
                         <label className='gap-2 items-center justify-end flex'><span>العيادات</span> <FaFirstAid className='text-red-800' /></label>
-                        <Select isRtl placeholder="إختر عيادة ..." options={clinics} />
+                        <Select className='z-50' isRtl placeholder="إختر عيادة ..." options={clinics} />
                     </div>
                     <div className='flex flex-col gap-4 w-52 justify-center  '>
                         <label className='gap-2 items-center justify-end flex'><span>المجمعات</span> <SlLocationPin className='text-red-800' /></label>
-                        <Select isRtl placeholder="إختر المجمع ..." options={places} />
+                        <Select className='z-50' isRtl placeholder="إختر المجمع ..." options={places} />
                     </div>
                 </div>
             </div>

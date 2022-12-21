@@ -7,8 +7,8 @@ export default function Numbers() {
 
     return (
         <>
-            <p className='text-[#94a1a9] font-bold text-center py-4 mt-3 text-5xl'>إحصائيات وأرقام</p>
-            <div className='  bg-gradient-to-tr from-[#2882c3] to-[#1f396c] container my-5 rounded-3xl mx-auto p-5 flex flex-wrap flex-row-reverse justify-around items-center '>
+            <p data-aos="fade-up" className='text-[#94a1a9] font-bold text-center py-4 mt-3 text-5xl'>إحصائيات وأرقام</p>
+            <div data-aos="fade-up" className='  bg-gradient-to-tr from-[#2882c3] to-[#1f396c] container my-5 rounded-3xl mx-auto p-5 flex flex-wrap flex-row-reverse justify-around items-center '>
                 <div className=' flex flex-col justify-center text-[10px] md:text-lg'>
                     <img className='h-10 w-10 md:h-24 md:w-24 ' src="https://altaawin.ysdesk.com/assets/altaawin/statistics_and_numbers/accreditation.png" alt="" />
                     <p className='text-center text-white  font-bold'>الاعتمادات</p>

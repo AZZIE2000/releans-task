@@ -13,8 +13,8 @@ export default function KaderSec() {
 
     return (
         <>
-            <p className='text-center text-5xl py-5 font-bold text-[#94a1a9]'>الاستشاريين</p>
-            <div className='grid grid-cols-1 px-20  md:grid-cols-3  p-5 gap-10 md:gap-40 xl:gap-0 justify-items-center'>
+            <p data-aos="zoom-in" className='text-center text-5xl py-5 font-bold text-[#94a1a9]'>الاستشاريين</p>
+            <div data-aos="zoom-in" className='grid grid-cols-1 px-20  md:grid-cols-3  p-5 gap-10 md:gap-40 xl:gap-0 justify-items-center'>
                 {
                     data.map(doc => {
                         return <CardPerson doc={doc} />

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export default function NavigatoinBar() {
     return (
         <div className='h-20 z-50   flex justify-around items-center  text-white bg-gradient-to-b from-black to-slate-500  w-full '>
-            <div></div>
+            <div><img className='h-5 md:h-7' src="https://altaawin.ysdesk.com/assets/altaawin/en-ar-64.png" alt="" /></div>
             <ul className='flex justify-center gap-2 md:gap-5 text-[10px]  sm:text-[15px] md:text-[13px] '>
                 <Link>معلومات طبية</Link>
                 <Link>الخدمات الإلكترونية</Link>
